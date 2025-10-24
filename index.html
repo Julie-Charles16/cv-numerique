@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CV Julie Charles">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+    </noscript>
+    <link rel="shortcut icon" href="css/img/logoDW.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="css/script.js" async></script>
+    <title>CV Julie Charles</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar">
+        <div class="logo">
+          <h4>Ju.C</h4>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#profil" aria-label="lien vers la section profil">Profil</a></li>
+            <li><a href="#skills" aria-label="lien vers la section compétences">Compétences</a></li>
+            <li><a href="#school" aria-label="lien vars la section formations">Formations</a></li>
+            <li><a href="#job" aria-label="lien vers la section expériences">Expériences</a></li>
+            <li><a href="#contact" aria-label="lien vers la section contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="menu-hamburger">
+          <img src="css/img/imgburger.webp" width="70" height="70" alt="menu_burger">
+        </div>
+      </nav>
+    </header>
+    <section id="welcome">
+      <h1>Bonjour et bienvenue sur mon profil de...</h1>
+      <br>
+      <span
+        class="txt-rotate"
+        data-period="1500"
+        data-rotate='[  "Développeuse Web" ]'
+      ></span>
+      <br>
+      <button onclick="myFunction()" id="btn-darkMode">Switch mode</button>
+    </section>
+    <section id="profil">
+      <div class="container">
+        <div class="hero-image">
+          <img src="css/img/julie.webp" alt="photo de profil" width="300" height="300" loading="lazy">
+        </div>
+        <div class="hero-content">
+          <h1>Julie Charles</h1>
+          <h2>Développeuse Web / Web Mobile</h2>
+          <p>
+            " En pleine reconversion professionnelle après une formation de
+            développeur intégrateur web/ web mobile, je suis passionnée par
+            l'apprentissage continu et avide de découvrir de nouveaux outils et
+            technologies du développement web. Curieuse et engagée, je cherche
+            sans cesse à enrichir mes compétences pour relever de nouveaux
+            défis. "
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="title">
+        <h1>Compétences</h1>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="img-box">
+            <img src="css/img/soft.webp" alt="chiot" width="500" height="500">
+          </div>
+          <div class="card-content">
+            <h1>Soft skills</h1>
+            <p>
+              Mon parcours m'a permis de développer une grande sensibilité aux
+              besoins des autres, tout en nourrissant ma créativité. Je m'appuie
+              sur quatre qualités essentielles qui me définissent :
+            </p>
+            <ol>
+              <li>la patience, pour aborder les défis avec calme</li>
+              <li>la curiosité, toujours prête à explorer de nouvelles solutions</li>
+              <li>la logique, pour structurer et résoudre les problèmes efficacement</li>
+              <li>l'empathie, pour comprendre et collaborer avec les autres de manière authentique</li>
+            </ol>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-box">
+            <img src="css/img/hard.webp" alt="lion" width="500" height="500">
+          </div>
+          <div class="card-content">
+            <h1>Hard skills</h1>
+            <p>
+              Je me forme quotidiennement pour enrichir mes compétences et
+              maximiser mon expertise. Animée par une forte motivation et une
+              impatience palpable, je suis déterminée à plonger dans l'univers
+              des langages back-end, avide de les maîtriser pour élargir mes
+              compétences et relever de nouveaux défis techniques.
+            </p>
+            <br>
+            <ol class="olHard">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>Figma</li>
+              <li>Strapi</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="school">
+      <div class="title">
+        <h1>Formations</h1>
+      </div>
+      <div class="form">
+        <div class="wrapper">
+          <div class="single-card">
+            <div class="front">
+              <img src="css/img/simplon.webp" alt="logo simplon" width="500" height="500">
+            </div>
+            <div class="back">
+              <div class="content">
+                <h2>Développeur/Intégrateur Web/Web mobile</h2>
+                <br>
+                <h3>01/03/2023 - 19/04/2023</h3>
+                <br>
+                <p>
+                  Développer des compétences d'applications web nécessaires pour
+                  réaliser les principales activités d'un intégrateur dans le
+                  domaine du développement web.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="single-card">
+            <div class="front">
+              <img src="css/img/thalasssun.webp" alt="logo thalass'sun" width="500" height="500">
+            </div>
+            <div class="back">
+              <div class="content">
+                <h2>Technicienne SPA</h2>
+                <br>
+                <h3>2009</h3>
+                <br>
+                <p>
+                  Maîtrise des différents modelages proposés en thalassothérapie
+                  (français, ayurvédique, californien, balinais, pierres
+                  chaudes...)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="job">
+      <div class="title">
+        <h1>Expériences</h1>
+      </div>
+      <div class="exp">
+        <div class="box">
+          <div class="card-exp">
+            <div class="imgBx" data-text="Agent Commercial">
+              <img src="css/img/verte.webp" alt="logo force verte" width="100" height="100">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Agent Commercial</h2>
+                <h3>La Force Verte , 2020 - 2022</h3>
+                <p>
+                  Réalisation d'audits énergétique auprès de particuliers. Vente
+                  de contrats d'énergie. Commercialisation de produits en
+                  énergie renouvelable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-exp">
+            <div class="imgBx" data-text="Technicienne SPA">
+              <img src="css/img/spa.webp" alt="logo espace beauté" width="100" height="100">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Technicienne SPA</h2>
+                <h3>Thalass'sun , Dunkerque - 2010</h3>
+                <p>
+                  Accueil et conseil auprès de la clientèle. Réalisation de
+                  modelage et de soins corps. Gestion des stocks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-title">
+        <h1>Contactez-moi !</h1>
+        <h2>"Actuellement en formation, je suis à la recherche d'un stage: motivée, enthousiaste, prête à intégrer une équipe dynamique ! "</h2>
+      </div>
+      <div class="social-login-icons">
+        <div class="socialcontainer">
+          <a href="tel:0768292549" target="_blank" aria-label="appeler julie charles">
+            <div class="icon social-icon-1-1">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 512 512"
+                height="1.5em"
+                fill="white"
+              >
+                <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                ></path>
+              </svg>
+            </div>
+            <div class="social-icon-1">
+              <svg
+                viewBox="0 0 512 512"
+                height="1.5em"
+                xmlns="http://www.w3.org/2000/svg"
+                class="svgIcontwit"
+                fill="white"
+              >
+                <path 
+                  d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                ></path>
+              </svg>
+            </div>
+          </a> 
+        </div>
+        <div class="socialcontainer">
+          <a href="mailto:juliecharles2716@gmail.com" target="_blank" aria-label="envoyer un mail à julie charles">
+            <div class="icon social-icon-2-2">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 512 512"
+                fill="white"
+                height="1.6em"
+              >
+                <path 
+                  d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256l0 32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32l0 80 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
+                ></path>
+              </svg>
+            </div>
+            <div class="social-icon-2">
+              <svg
+                fill="white"
+                class="svgIcon"
+                viewBox="0 0 448 512"
+                height="1.6em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path 
+                  d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256l0 32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32l0 80 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
+                ></path> 
+              </svg>
+            </div>  
+          </a>
+        </div>
+        <div class="socialcontainer">
+          <a href="https://linkedin.com/in/julie-c-92207a294" target="_blank" aria-label="lien vers le compte linkedin de julie charles">
+            <div class="icon social-icon-3-3">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 448 512"
+                fill="white"
+                height="1.6em">
+                  <path 
+                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+                  ></path>
+              </svg>
+            </div>
+            <div class="social-icon-3">
+              <svg
+                viewBox="0 0 384 512"
+                fill="white"
+                height="1.6em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path 
+                  d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+                ></path>
+              </svg>
+            </div>  
+          </a>  
+        </div>
+        <div class="socialcontainer">
+          <a href="https://github.com/Julie-Charles16" target="_blank" aria-label="lien vers le compte github de julie charles">
+            <div class="icon social-icon-4-4">
+              <svg fill="white" viewBox="0 0 496 512" height="1.6em">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="social-icon-4">
+              <svg fill="white" viewBox="0 0 496 512" height="1.6em">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="letter">
+        <div class="letter-cv">
+          <a href="css/Julie_Charles_DEV_WEB_CV.pdf" target="_blank" aria-label="lien vers mon cv">
+            <button class="Documents-btn">
+              <span class="folderContainer">
+                <svg
+                  class="fileBack"
+                  width="146"
+                  height="113"
+                  viewBox="0 0 146 113"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 4C0 1.79086 1.79086 0 4 0H50.3802C51.8285 0 53.2056 0.627965 54.1553 1.72142L64.3303 13.4371C65.2799 14.5306 66.657 15.1585 68.1053 15.1585H141.509C143.718 15.1585 145.509 16.9494 145.509 19.1585V109C145.509 111.209 143.718 113 141.509 113H3.99999C1.79085 113 0 111.209 0 109V4Z"
+                    fill="url(#paint0_linear_117_4)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_117_4"
+                      x1="0"
+                      y1="0"
+                      x2="72.93"
+                      y2="95.4804"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="#8F88C2"></stop>
+                      <stop offset="1" stop-color="#5C52A2"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <svg
+                  class="filePage"
+                  width="88"
+                  height="99"
+                  viewBox="0 0 88 99"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="88" height="99" fill="url(#paint0_linear_117_6)"></rect>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_117_6"
+                      x1="0"
+                      y1="0"
+                      x2="81"
+                      y2="160.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="white"></stop>
+                      <stop offset="1" stop-color="#686868"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <svg
+                  class="fileFront"
+                  width="160"
+                  height="79"
+                  viewBox="0 0 160 79"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.29306 12.2478C0.133905 9.38186 2.41499 6.97059 5.28537 6.97059H30.419H58.1902C59.5751 6.97059 60.9288 6.55982 62.0802 5.79025L68.977 1.18034C70.1283 0.410771 71.482 0 72.8669 0H77H155.462C157.87 0 159.733 2.1129 159.43 4.50232L150.443 75.5023C150.19 77.5013 148.489 79 146.474 79H7.78403C5.66106 79 3.9079 77.3415 3.79019 75.2218L0.29306 12.2478Z"
+                    fill="url(#paint0_linear_117_5)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_117_5"
+                      x1="38.7619"
+                      y1="8.71323"
+                      x2="66.9106"
+                      y2="82.8317"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="#C3BBFF"></stop>
+                      <stop offset="1" stop-color="#51469A"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
+              <label class="text">CV en PDF</label>
+            </button>
+          </a>
+        </div>
+        <div class="letter-motivation">
+          <a href="css/Lettre_de_motivation.pdf" target="_blank" aria-label="lien vers lettre de motivation">
+            <button class="Documents-btn">
+              <span class="folderContainer">
+                <svg
+                  class="fileBack"
+                  width="146"
+                  height="113"
+                  viewBox="0 0 146 113"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 4C0 1.79086 1.79086 0 4 0H50.3802C51.8285 0 53.2056 0.627965 54.1553 1.72142L64.3303 13.4371C65.2799 14.5306 66.657 15.1585 68.1053 15.1585H141.509C143.718 15.1585 145.509 16.9494 145.509 19.1585V109C145.509 111.209 143.718 113 141.509 113H3.99999C1.79085 113 0 111.209 0 109V4Z"
+                    fill="url(#paint0_linear_117_4)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_117_4"
+                      x1="0"
+                      y1="0"
+                      x2="72.93"
+                      y2="95.4804"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="#8F88C2"></stop>
+                      <stop offset="1" stop-color="#5C52A2"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <svg
+                  class="filePage"
+                  width="88"
+                  height="99"
+                  viewBox="0 0 88 99"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="88" height="99" fill="url(#paint0_linear_117_6)"></rect>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_117_6"
+                      x1="0"
+                      y1="0"
+                      x2="81"
+                      y2="160.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="white"></stop>
+                      <stop offset="1" stop-color="#686868"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <svg
+                  class="fileFront"
+                  width="160"
+                  height="79"
+                  viewBox="0 0 160 79"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.29306 12.2478C0.133905 9.38186 2.41499 6.97059 5.28537 6.97059H30.419H58.1902C59.5751 6.97059 60.9288 6.55982 62.0802 5.79025L68.977 1.18034C70.1283 0.410771 71.482 0 72.8669 0H77H155.462C157.87 0 159.733 2.1129 159.43 4.50232L150.443 75.5023C150.19 77.5013 148.489 79 146.474 79H7.78403C5.66106 79 3.9079 77.3415 3.79019 75.2218L0.29306 12.2478Z"
+                    fill="url(#paint0_linear_117_5)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_117_5"
+                      x1="38.7619"
+                      y1="8.71323"
+                      x2="66.9106"
+                      y2="82.8317"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="#C3BBFF"></stop>
+                      <stop offset="1" stop-color="#51469A"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
+              <label class="text">Lettre de motivation</label>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div id="top">
+        <a href="#home" aria-label="retour vers la section home">
+          <button class="arrow" aria-label="retour vers le haut de page">
+              <svg class="svgIcon" viewBox="0 0 384 512">
+                <path
+                  d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                ></path>
+              </svg>
+          </button>
+        </a>
+      </div>
+    </section>  
+    <footer class="footer">
+      <p>&copy; Julie-Charles 2024</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuHamburger = document.querySelector(".menu-hamburger");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuHamburger.addEventListener("click", () => {
+          navLinks.classList.toggle("mobile-menu");
+        });
+      });
+    </script>
+  </body>
+</html>
